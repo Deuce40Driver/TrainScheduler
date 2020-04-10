@@ -1,7 +1,7 @@
 <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
 
 var config = {
-  apiKey: "AIzaSyCGmaQqrm17EaMruxxCK6Rs1rfhzz344Vk",
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "train-scheduler-2d39f.firebaseapp.com",
   databaseURL: "https://train-scheduler-2d39f.firebaseio.com",
   projectId: "train-scheduler-2d39f",
