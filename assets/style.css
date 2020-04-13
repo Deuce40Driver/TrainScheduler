@@ -1,0 +1,14 @@
+body {
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h1 {
+    padding: 10px;
+}
+
+#train-table {
+    text-align: left;
+}
